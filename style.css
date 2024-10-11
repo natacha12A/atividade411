@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Indie Flower", sans-serif;
+}
+
+body {
+    
+
+    background: linear-gradient(180deg, #a9e159, #3ab1ab);
+    height: 200px;
+
+    color: #282828;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #006414 ; 
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+
+}
+
+
+main {
+    padding: 2rem;
+    border-radius: 12px 0px 0px 12px;
+    
+}
+
+
+.primeira {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+    flex-direction: row-reverse;
+    
+}
+
+.primeira p {
+    max-width: 40.5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.primeira img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10px;
+}
+
+
+.segunda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #419f00, #3e9575);
+    height: 200px;
+ 
+    color: #fff;
+    height: 25rem;
+    margin-bottom: 3rem;
+    padding: 6rem;
+    gap: 1.5rem;
+    border-radius: 12px; 
+}
+
+
+
+.segunda img {
+    width: 15rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.segunda p {
+    width: 24.5rem;
+
+    margin: 0 1.5rem;
+
+}
+
+
+.terceira {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+.terceira img {
+    width: 12rem;
+    height: 8rem;
+    object-fit: cover; 
+    border-radius: 10px; 
+}
